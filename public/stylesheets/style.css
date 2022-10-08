@@ -1,0 +1,71 @@
+
+body{
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.title{
+  margin: 0;
+  color: white;
+  font-size: 140px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.heading{
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  float: left;
+  margin-left: 70px;
+}
+sub{
+  color: #AA336A  ;
+  font-style: italic;
+
+}
+.inp{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+    appearance: none;
+  margin: 10px 20px;
+  padding: 0px 20px;
+  border: none;
+  width: 80%;
+  height: 60px;
+  color: #AA336A;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+}
+
+::placeholder{
+  color: #FF69B4;
+  padding-left: 20px;
+}
+
+.button{
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  background: rgb(2,0,36);
+  background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(41,41,210,0.9475140397956058) 0%, rgba(255,0,83,1) 100%);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.resHead{
+  color: #FF69B4;
+}
+#val3{
+  font-size: 100px;
+  font-weight: bolder;
+  color: #AA336A;
+}
+#val4{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}
